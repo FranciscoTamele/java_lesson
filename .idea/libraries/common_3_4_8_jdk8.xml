@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="common-3.4.8-jdk8">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/librarys/common-3.4.8-jdk8.jar!/" />
-      <root url="jar://$PROJECT_DIR$/librarys/commons-codec-1.15.jar!/" />
-      <root url="jar://$PROJECT_DIR$/librarys/fastjson-1.2.79.jar!/" />
-      <root url="jar://$PROJECT_DIR$/librarys/httpclient-3.4.8-jdk8.jar!/" />
-      <root url="jar://$PROJECT_DIR$/librarys/httpclient5-5.1.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/librarys/httpcore5-5.1.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/librarys/httpcore5-h2-5.1.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/librarys/json-3.4.8-jdk8.jar!/" />
-      <root url="jar://$PROJECT_DIR$/librarys/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/librarys/httpclient/common-3.4.8-jdk8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/librarys/httpclient/commons-codec-1.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/librarys/httpclient/fastjson-1.2.79.jar!/" />
+      <root url="jar://$PROJECT_DIR$/librarys/httpclient/httpclient-3.4.8-jdk8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/librarys/httpclient/httpclient5-5.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/librarys/httpclient/httpcore5-5.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/librarys/httpclient/httpcore5-h2-5.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/librarys/httpclient/json-3.4.8-jdk8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/librarys/httpclient/slf4j-api-1.7.25.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
