@@ -144,15 +144,15 @@ public class HttpClientLesson {
             httpPost.setHeader("Accept", "*/*");
 
             MultipartEntityBuilder builder = MultipartEntityBuilder.create();
-            builder.addTextBody("nome", "Minha Venda Post");
+            builder.addTextBody("nome", "Minha Venda Post",ContentType.create("text","utf8"));
             builder.addTextBody("preco", "3000");
-            builder.addTextBody("descricao", "Descricao");
-            builder.addTextBody("localizacao", "Localizacao");
+            builder.addTextBody("descricao", "Descrição",ContentType.create("text","utf8"));
+            builder.addTextBody("localizacao", "Localização",ContentType.create("text","utf8"));
             builder.addTextBody("provincia", "1");
             builder.addTextBody("categoria", "1");
             builder.addTextBody("subcategoria", "9");
             builder.addTextBody("usuario_id", "1");
-            builder.addTextBody("usuario_nome", "Usuario Teste");
+            builder.addTextBody("usuario_nome", "Usuario Teste",ContentType.create("text","utf8"));
             builder.addTextBody("usuario_telefone", "847777777");
             builder.addBinaryBody("file", new File("pastas/resources/banner.jpg"), ContentType.APPLICATION_OCTET_STREAM, "banner.jpg");
             HttpEntity multipart = builder.build();
