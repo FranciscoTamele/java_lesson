@@ -2,7 +2,10 @@ package collections;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
+import java.util.List;
 
 class Truque implements Comparable<Truque>{
 
@@ -12,6 +15,7 @@ class Truque implements Comparable<Truque>{
 
     public Truque(String data) {
         this.data = data;
+        buildDate();
     }
 
     public String getNome() {
@@ -39,12 +43,20 @@ class Truque implements Comparable<Truque>{
     }
 
     private SimpleDateFormat format=new SimpleDateFormat("dd-MM-yyyy");
+
     public void buildDate(){
         try {
             this.date=format.parse(data);
         } catch (ParseException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Truque{" +
+                ", date=" + date +
+                '}';
     }
 
     @Override
@@ -57,6 +69,21 @@ class Truque implements Comparable<Truque>{
 public class ComparableLesson{
 
     public static void main(String[] args) {
+
+        Truque truque=new Truque("29-07-1996");
+        Truque truque1=new Truque("04-04-2001");
+        Truque truque2=new Truque("16-01-1980");
+
+        List<Truque> list=new ArrayList<>();
+
+        list.add(truque);
+        list.add(truque1);
+        list.add(truque2);
+
+        Collections.sort(list);
+
+        System.out.println(list);
+
 
     }
 }
