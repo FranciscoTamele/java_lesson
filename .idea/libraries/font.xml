@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="font">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/librarys/itext/font" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/librarys/itext/font" recursive="false" />
+  </library>
+</component>
